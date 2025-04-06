@@ -1,0 +1,170 @@
+.gradient-background {
+  background: linear-gradient(300deg, #c8e4e4, #878383, #b2cacc);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: #202020;
+  height: 70px;
+  align-items: center;
+  gap: 60%;
+  padding: 0px 20px;
+}
+
+.st{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.st p{
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.st img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.end{
+  align-items: center;
+}
+
+li{
+  font-size: 20px;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.main{
+  height: 86.6vh;
+  padding: 10vh 10%;
+}
+
+.download{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.download div {
+  width: 80%;
+}
+
+.download p{
+  line-height: 100%;
+  font-size: 50px;
+  font-weight: bolder;
+  display: inline-block;
+}
+
+button{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.bt{
+  font-size: 20px;
+}
+
+.container{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.testimonial-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 30px 0px;
+  background-color: #fafafa;
+}
+
+.testimonial-cont p{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+}
+
+.image{
+  display: flex;
+  flex-direction: column;
+}
+
+.image img{
+  border-radius: 50%;
+  width: 100px;
+  align-self: center;
+}
+
+.image p{
+  color: rgb(65, 64, 64);
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+
+.brands{
+  display: flex;
+  justify-content: space-around;
+}
+
+.brands img{
+  width: 10rem;
+  height: 2rem;
+}
+
+.price-cont{
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  align-items: center;
+}
+
+.price-cont h3{
+  font-size: 45px;
+}
+
+.price-cont p{
+  font-size: 20px;
+}
+
+.prices{
+  width: 80%;
+  margin-top: 60px;
+}
